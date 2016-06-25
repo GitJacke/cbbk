@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <android.support.v7.widget.Toolbar
+
+        android:id="@+id/dt_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#b8e4d9">
+    </android.support.v7.widget.Toolbar>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+        <TextView
+            android:id="@+id/dt_title"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:textSize="30sp"
+            android:lines="2"
+            android:ellipsize="end"
+            android:text="数据加载中。。。。"
+            />
+
+        <TextView
+            android:layout_below="@id/dt_title"
+            android:id="@+id/dt_kytv"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:lines="2"
+            android:ellipsize="end"
+            android:textSize="15sp"
+            android:text="数据加载中。。。"
+            android:layout_alignParentBottom="true" />
+
+       <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/dt_kytv"
+            android:layout_alignTop="@id/dt_kytv"
+            android:id="@+id/dt_timetV"
+           android:lines="2"
+           android:ellipsize="end"
+            android:layout_width="180dp"
+            android:layout_height="60dp"
+            android:text="数据加载中。。。"
+            />
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <TextView
+            android:id="@+id/dt_dt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="16sp"/>
+    </ScrollView>
+
+
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.activity.HomeActivity">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/home_tobar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#b8e4d9"
+        >
+    </android.support.v7.widget.Toolbar>
+    <android.support.design.widget.TabLayout
+        android:id="@+id/home_Title"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+    </android.support.design.widget.TabLayout>
+   <android.support.v4.view.ViewPager
+       android:id="@+id/home_Vp"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       />
+</LinearLayout>

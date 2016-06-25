@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CBK.iml" filepath="$PROJECT_DIR$/CBK.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/networkrespone/networkrespone.iml" filepath="$PROJECT_DIR$/networkrespone/networkrespone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/networkthread/networkthread.iml" filepath="$PROJECT_DIR$/networkthread/networkthread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/onkey/onkey.iml" filepath="$PROJECT_DIR$/onkey/onkey.iml" />
+      <module fileurl="file://$PROJECT_DIR$/share/share.iml" filepath="$PROJECT_DIR$/share/share.iml" />
+    </modules>
+  </component>
+</project>
